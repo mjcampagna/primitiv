@@ -1,5 +1,5 @@
 {
-  "name": "primitivity",
+  "name": "primitiv",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjcampagna/primitivity.git"
+    "url": "git+https://github.com/mjcampagna/primitiv.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mjcampagna/primitivity/issues"
+    "url": "https://github.com/mjcampagna/primitiv/issues"
   },
-  "homepage": "https://github.com/mjcampagna/primitivity#readme",
+  "homepage": "https://github.com/mjcampagna/primitiv#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
