@@ -11,7 +11,42 @@
   </head>
   <body>
 
-			<div id="app"></div>
+			<div id="app">
+
+        <img src="./zhang_jingna.jpg" style="width: 100px; height: auto; cursor:pointer;" />
+
+        <form>
+          <input type="file" />
+          <button type="submit">Submit</button>
+        </form>
+
+      </div>
+
+      <hr />
+
+      <section id="output">
+        <div>
+          <h3>Original</h3>
+          <div id="original"></div>
+        </div>
+        <div>
+          <h3>Result <span id="steps"></span></h3>
+          <div class="raster" id="raster"></div>
+          <div class="vector" id="vector"></div>
+          <label>
+            <input type="radio" name="type" value="raster" checked="checked" />
+            Raster image: right-click to save
+          </label>
+          <br/>
+          <label>
+            <input type="radio" name="type" value="vector" />
+            Vector image: copy&amp;paste data from the text area below
+          </label>
+          <br/>
+          <textarea class="vector" id="vector-text" spellcheck="false"></textarea>
+        </div>
+      </section>
+
 
   </body>
 </html>

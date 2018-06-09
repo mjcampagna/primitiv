@@ -33,6 +33,7 @@
     "webpack-cli": "^2.1.4"
   },
   "dependencies": {
+    "blob-util": "^2.0.2",
     "normalize.css": "^8.0.0"
   }
 }
