@@ -11,7 +11,7 @@ import { imgSrcToBlob } from 'blob-util';
 
 
 let cfg = {
-	steps: 50,
+	steps: 75,
 	computeSize: 256, 
 	viewSize: 512, 
 	shapes: 200, 
