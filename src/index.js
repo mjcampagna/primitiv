@@ -73,9 +73,10 @@ function go(original, cfg) {
 
 }
 
-document.addEventListener('submit', event => {
+const uploader = document.getElementById('upload');
+uploader.addEventListener('submit', event => {
 	event.preventDefault();
-	let input = document.querySelector("input[type=file]");
+	let input = uploader.querySelector("input[type=file]");
 	let url;
 	if (input.files.length > 0) {
 		let file = input.files[0];
